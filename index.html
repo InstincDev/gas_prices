@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="description"
+            content="This is where your description goes"
+        />
+        <meta name="keywords" content="one, two, three" />
+
+        <title>Average Gas Price</title>
+
+        <!-- external CSS link -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <h1>Gas Was How Much!?!</h1>
+
+        
+        <section class="chart">
+			<h2>US Gas Prices By State</h2>
+            <canvas id="myChart"></canvas>
+        </section>
+		<footer>
+			<small>Data retrieved from "U.S. Energy Information Administration" </small>
+		</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script type="module" src="api_key.js"></script>
+        <script type="module" src="js/main.js"></script>
+		
+    </body>
+</html>
